@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'crudsite';
+  imageUrl = 'assets/images/';
+  image = 'keyboard.png'
+
+  constructor() {}
+  ngOnInit(){}
 }
